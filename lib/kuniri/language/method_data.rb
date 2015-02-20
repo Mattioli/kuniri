@@ -16,6 +16,10 @@ module Languages
         @parameters.push(value)
       end
 
+      def get_parameters
+        @parameters
+      end
+
     private
 
       @parameters
